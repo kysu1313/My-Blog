@@ -1,0 +1,44 @@
+
+
+//- Include the navbar / header
+include includes/header
+
+.container
+  br
+  main(role='main')
+    .jumbotron
+      .col-sm-8.mx-auto
+        h1 Hacking!
+        p
+          | I go through phases. Typically once a year for a span of about 3 months I get really into ethical hacking. One of my favorite websites for this is <a href="https://www.hackthebox.eu/"> hackthebox</a>. 
+          
+        p
+          | But that's not all. I also enjoy robotics and messing around with my raspberry pi!
+          
+          //- This is how to add code / script in text
+          
+          //- code .container 
+          //- | . For positioning of navbars, checkout the 
+
+
+          //- How to add links in text:
+
+          //- a(href='../navbar-top/') top
+          //- |  and 
+          //- a(href='../navbar-top-fixed/') fixed top
+          //- |  examples.
+        p
+          a.btn.btn-primary(href='../../components/navbar/', role='button') View navbar docs »
+
+script(
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"
+)
+script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js" integrity="sha256-pS96pU17yq+gVu4KBQJi38VpSuKN7otMrDQprzf/DWY=" crossorigin="anonymous")
+script(
+  src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"
+  integrity="sha256-DiWJXXyq81WlPRnDfGmgYZj2aOVCKyEdJ1l+2TmDuAs="
+  crossorigin="anonymous"
+)
+
