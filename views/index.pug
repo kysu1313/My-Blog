@@ -13,7 +13,7 @@ include includes/header
           | Thanks for checking out my blog! I'm glad you're here. Take a look around. This is where I post writeups about my most recent projects and discuss topics I find interesting.
         br
         p
-          | If you find my site interesting please let me know via email or comments / likes!
+          | If you find my site interesting please let me know via email, comments or likes!
         br
         p
           | -Kyle Supple
@@ -30,7 +30,17 @@ include includes/header
           //- a(href='../navbar-top-fixed/') fixed top
           //- |  examples.
         p 
-          a.btn.btn-primary(href='../../components/navbar/', role='button') View navbar docs »
+          a.btn.btn-primary(href='/index', role='button') View navbar docs »
+
+.container
+  .card(class="mb-3")
+    .card-img-top
+      img(src="img/trippy-2.jpg", alt="trippy", class="card-img-top", style="height: 150px")
+    .card-body
+      .card-title Generative Machine Learning Pt. 2
+      .card-text Use Googles Deep Dream to create some pretty trippy images. Follow my journey learning how to implement this ML project to create some crazy looking pictures.
+      .card-text 
+      a.btn.btn-primary(href='/index', role='button') View Post
 
 script(
   src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"
