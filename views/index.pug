@@ -2,6 +2,7 @@
 
 //- Include the navbar / header
 include includes/header
+include includes/sidebar
 
 .container
   br
@@ -13,7 +14,7 @@ include includes/header
           | Thanks for checking out my blog! I'm glad you're here. Take a look around. This is where I post writeups about my most recent projects and discuss topics I find interesting.
         br
         p
-          | If you find my site interesting please let me know via email, comments or likes!
+          | If you like what you see please let me know via email or comments!
         br
         p
           | -Kyle Supple
@@ -51,7 +52,9 @@ include includes/header
         .card-title Hackthebox Bashed Writeup
         .card-text Check out my first HTB writeup! I'm not great at hacking but it's super cool and I want to learn.
         .card-text 
-        a.btn.btn-primary(href='/index', role='button') View Post
+          br
+          a.btn.btn-primary(href='/index', role='button') View Post
+          br
     .col-sm-6
       .card(class="mb-3")
         .card-img-top
@@ -59,7 +62,9 @@ include includes/header
         .card-title Kali Linux on a Raspberry Pi
         .card-text Today I installed Kali Linux on my raspberry pi, then monitored bluetooth traffic! Check it out!
         .card-text 
-        a.btn.btn-primary(href='/index', role='button') View Post
+          br
+          a.btn.btn-primary(href='/index', role='button') View Post
+          br
 
 script(
   src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"
