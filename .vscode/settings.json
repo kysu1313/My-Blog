@@ -1,0 +1,7 @@
+{
+    "powermode.enableShake": false,
+    "powermode.presets": "simple-rift",
+    "powermode.maxExplosions": 1,
+    "powermode.backgroundMode": "mask",
+    "powermode.explosionFrequency": 4,
+}
